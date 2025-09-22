@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap'); 
+
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+    font-size: 10pt;
+    line-height: 1.4;
+}
+
+.resume-container {
+    background: #fff;
+    max-width: 8.5in;
+    min-height: 11in;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2.5in 1fr;
+    padding: 0.5in;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* --- Left Column --- */
+.left-column {
+    padding-right: 30px;
+}
+
+.profile-image-wrapper {
+    width: 100%;
+    padding-top: 100%; 
+    background-color: #0d6efd;
+    border-radius: 18px; 
+    margin-bottom: 2rem;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.profile-image-wrapper .profile-pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 95%; 
+    max-height: 95%; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.left-column section {
+    margin-bottom: 1.5rem;
+}
+
+.left-column h2, .right-column h2 {
+    font-size: 11pt;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.contact-info p {
+    margin: 0.2rem 0;
+}
+
+.skills ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+.skills li {
+    margin-bottom: 5px;
+}
+
+/* --- Right Column --- */
+.right-column {
+    padding-left: 30px;
+    border-left: 1.5px solid #e0e0e0;
+}
+
+.main-header {
+    margin-bottom: 1.5rem;
+}
+
+.main-header h1 {
+    font-size: 24pt;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-header .job-title {
+    font-size: 12pt;
+    margin: 0;
+}
+
+.right-column h2 {
+    border-bottom: 1.5px solid #000;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.right-column section {
+    margin-bottom: 1.5rem;
+}
+.right-column p {
+    margin: 0.2rem 0;
+}
+
+.entry {
+    margin-bottom: 1rem;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.entry-header .title {
+    font-weight: bold;
+    margin: 0;
+    flex-basis: 70%;
+}
+
+.entry-header .date {
+    font-weight: normal;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 0.5rem !important;
+}
+
+.majors-title {
+    font-weight: bold;
+    margin-top: 0.5rem !important;
+}
+
+.volunteering ul {
+    padding-left: 20px;
+    margin-top: 0.5rem;
+}
+
+.right-column section:last-child .entry {
+    margin-bottom: 0;
+}
+
+/* --- Contact Form Styles --- */
+.contact-form {
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 0.8rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0b5ed7;
+}
+
+#form-status {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#form-status.success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#form-status.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* --- Download CV Styles --- */
+.download-cv {
+    margin-top: 2rem;
+}
+
+.download-cv p {
+    margin-bottom: 0.8rem;
+}
+
+.download-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #0b5ed7;
+}
