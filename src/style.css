@@ -8,7 +8,7 @@ body {
     padding: 20px;
     font-size: 10pt;
     line-height: 1.4;
-    -webkit-text-size-adjust: 100%; /* Prevents text resizing on mobile browsers */
+    -webkit-text-size-adjust: 100%;
 }
 
 .resume-container {
@@ -17,9 +17,7 @@ body {
     min-height: 11in;
     margin: auto;
     display: grid;
-    /* Use flexible fraction units instead of fixed inches */
     grid-template-columns: 1fr 2fr; 
-    /* Use gap for spacing instead of padding and borders */
     gap: 30px;
     padding: 0.5in;
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
@@ -63,7 +61,7 @@ body {
 
 .contact-info p {
     margin: 0.2rem 0;
-    word-break: break-all; /* Helps long emails/URLs wrap */
+    word-break: break-all;
 }
 
 .skills ul {
@@ -114,7 +112,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 10px; /* Add gap for spacing between title and date */
+    gap: 10px; 
     font-weight: bold;
 }
 
@@ -126,7 +124,7 @@ body {
 .entry-header .date {
     font-weight: normal;
     text-align: right;
-    flex-shrink: 0; /* Prevents date from shrinking and wrapping */
+    flex-shrink: 0;
 }
 
 .subtitle {
@@ -220,3 +218,4 @@ body {
     padding: 10px;
     border-radius: 4px;
 }
+
